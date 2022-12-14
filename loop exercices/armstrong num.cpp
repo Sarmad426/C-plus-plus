@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 int main(){
 	// Armstrong is a number which is equal to the cube of its digits. For Example 371 
