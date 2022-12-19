@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 	char character;
-	cout<<"Enter Your Name: "<<endl;
+	cout<<"Enter Any Character:(Uppercase or Lowercase) "<<endl;
 	cin>>character;
 	int convert_int=int(character);
 	if(character>='A' && character<='Z'){
