@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
+	// A Pointer is a variable that stores the memory location of a particular variable.
+	// It is simply just the memory address.
 	string name="Sarmad";
 	int age=18;
 	double gpa=3.5;
