@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int array1[4]={4,3,5,2};
-	int array2[4]={5,7,6,4};
+	int array1[6]={4,3,5,2,8,2};
+	int array2[6]={5,7,6,4,8,2};
 	int sum_array[4];
 	cout<<"{ ";
-	for(int i=0;i<4;i++){
+	for(int i=0;i<6;i++){
 		sum_array[i]=array1[i]+array2[i];
 		cout<<sum_array[i]<<", ";
 	}
