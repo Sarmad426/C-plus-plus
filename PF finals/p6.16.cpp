@@ -1,15 +1,14 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int var1 = 0, var2 = 1, next=0, input;
-    cout << "Enter a positive number: ";
+	// Fibonacci Series
+    int num1 = 0, num2 = 1, next_num = 0 , input;
+    cout << "Enter a positive number: "<<endl;
     cin >> input;
-    cout << "Fibonacci Series: " << var1 << ", " << var2 << ", ";
-    next = var1 + var2;
-    while(next <= input) {
-        cout << next << ", ";
-        var1 = var2;
-        var2 = next;
-        next = var1 + var2;
+    while(next_num <= input) {
+        cout << next_num << ", ";
+       	num1 = num2;
+       	num2 = next_num;
+        next_num = num1 + num2;
     }
 }
